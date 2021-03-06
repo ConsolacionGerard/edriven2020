@@ -93,6 +93,6 @@ var months = ["January","February","March","April","May","June","July","August",
  }
  else{
      var hone = document.getElementById("error");
-     var honeTextNode = document.createTextNode("Tanga mo naman BOBO!!");
+     var honeTextNode = document.createTextNode("Invalid Month or Day!!");
      hone.appendChild(honeTextNode);
  }
