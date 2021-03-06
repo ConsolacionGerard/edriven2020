@@ -1,20 +1,16 @@
-h1{
-    color: red;
+table{
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;
 }
-p{
-    font-size: 30px;
+#title{
+    border-bottom: 2px solid black;
+    font-size: larger;
 }
-.head2{
-    color: orange;
+.body-color{
+    background-color: lightcoral;
 }
 td{
+    border: 1px solid black;
     text-align: center;
-    border: black solid;
-    padding: 10px;
-}
-thead{
-    font-weight: bold;
-    color: blue;
-    padding: 20px;
-
 }
