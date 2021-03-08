@@ -1,16 +1,9 @@
-table{
-    width: 800px;
-    height: 600px;
-    border: 2px solid black;
+input{
+    text-align: right;
 }
-#title{
-    border-bottom: 2px solid black;
-    font-size: larger;
-}
-.body-color{
-    background-color: lightcoral;
-}
-td{
-    border: 1px solid black;
-    text-align: center;
+#submit{
+    color: white;
+    background-color: rgb(168, 16, 16);
+    width: 100px;
+    height: 30px;
 }
