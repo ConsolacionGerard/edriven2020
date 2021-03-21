@@ -32,16 +32,14 @@ viewOrders.forEach(function(viewOrder){
             if(data[i]['ORNumber'] == orderNum){
                 ORNumberView.value = data[i]['ORNumber']
                 customerNameView.value = data[i]['name']
-                for(var ii = 0; ii < itemss.length; ii++){
-                    if(data[i]['items'][ii]['name'] != ''){
+                for(var ii = 0; ii < data[i]['items'].length; ii++){
+                   if(data[i]['items'][ii]['name'] != ''){
                         itemss[ii].value = data[i]['items'][ii]['name']
                         pricess[ii].value = data[i]['items'][ii]['price']
                         qtyss[ii].value = data[i]['items'][ii]['qty']
                         subtotalss[ii].value = data[i]['items'][ii]['subtotal']
-                        break
                     }
                 }
-                break
             }
         }
     })
